@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700;900&display=swap');
+
+body {
+    font-family: 'Source Serif Pro', serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background: #1d2026;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+
+button {
+    background-color: #efefef;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+button span {
+    display: block;
+    background: #999;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 2px;
+}
+
+.lamp {
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+}
+
+.light {
+    height: 220px;
+    display: block;
+    position: absolute;
+    left: 49.4%;
+    top: 21.3%;
+    transform: translateX(-50%);
+    width: 490px;
+}
+
+.text-container {
+    text-align: center;
+}
+
+.active {
+    background: green;
+}

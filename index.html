@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The-Lamp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="hero">
+        <img src="/images/lamp.png" class="lamp">
+        <img src="/images/light.png" class="light">
+
+        <div class="text-container">
+            <br><br><br><br><br><br><br><br><br><br><br>
+            <br>
+            <h1>This is The-Lamp</h1>
+            <br>
+            <h2>Toggle this to turn On/Off </h2> <br>
+            <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+        </div>
+    </div>
+
+
+    <script>
+        var btn = document.getElementById("btn");
+
+        function toggleBtn() {
+            btn.classList.toggle(".active");
+        }
+    </script>
+</body>
+</html>
